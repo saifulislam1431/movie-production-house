@@ -23,7 +23,7 @@
                         secondary: '#131313',
                         third: '#4E4E4E',
                     },
-                    fontFamily:{
+                    fontFamily: {
                         bebas: ["Bebas Neue", "cursive"],
                         montserrat: ["Montserrat", "sans-serif"],
                     }
@@ -32,10 +32,47 @@
             }
         }
     </script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <header>
+        <div class="container mx-auto">
+            <!-- Navbar -->
+            <nav class=" font-bebas flex justify-around items-center h-20 bg-white fixed top-0 left-0 right-0 ">
+                <div class="log-name">
+                    <h1 class="text-2xl">Jhaka naka production</h1>
+                </div>
+                <ul class="nav-items flex space-x-8">
+                    <li class="nav-item uppercase ">about us</li>
+                    <li class="nav-item uppercase ">movies</li>
+                    <li class="nav-item uppercase ">services</li>
+                </ul>
+            </nav>
 
+        </div>
+    </header>
+
+    <main>
+        
+        <!-- Banner -->
+        <section class="banner pt-20 mt-20 bg-[url('./images/banner.jpg')]">
+
+          <div class="container mx-auto mt-32 pl-3 md:pl-20">
+            <div class="details font-montserrat text-white">
+                <h2 class="text-lg pb-2 uppercase font-semibold">Movie production studio</h2>
+                <h1 class="uppercase text-5xl font-bold pb-7">Films made to <br><span class="text-primary">Perfection</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque recusandae architecto aperiam consequuntur dolores est, praesentium magni ratione eligendi omnis rem iusto.</p>
+                <button class="mt-7 py-2 px-3 uppercase font-bebas text-xl tracking-wider border-white border-2 hover:bg-primary hover:border-none">Discove more</button>
+
+            </div>
+
+          </div>
+            
+
+        </section>
+    </main>
 
 
 </body>
